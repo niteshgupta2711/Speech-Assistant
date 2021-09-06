@@ -3,10 +3,6 @@ import os
 import time
 
 
-
-import speech_recognition as sr
-
-
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 from ibm_watson import AssistantV2
 import json
