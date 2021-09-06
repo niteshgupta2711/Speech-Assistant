@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>NiteshML</title>
+  </head>
+  <body>
+  {{variable}}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">HOME</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/Summarizer">TextSummarizer</a></li>
+            <li><a class="dropdown-item" href="#">SpellCorrector</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="https://www.linkedin.com/in/nitesh-kumar-gupta-6847b9218/">LinkedIn</a>
+        </li>
+      </ul>
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <but<form class="d-flex">
+        ton class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+{% block body %}
+{% endblock body %}
+<div class="container-fluid my-4 px-0">
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="https://www.mindfoundry.ai/hubfs/CERTIFAI-featured-image.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://cdn.wallpapersafari.com/50/70/reaMAW.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://analyticsinsight.b-cdn.net/wp-content/uploads/2020/09/NLP1-1024x542.jpeg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+<div class="container my-4">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="https://media2.giphy.com/media/S60CrN9iMxFlyp7uM8/giphy.gif" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a demo for IBM watson chatbot . The chatbot recommends courses on different fields</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                   <a href="https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=jp-tok&integrationID=7ee25b03-72c4-4ebe-af6e-62109e297c9e&serviceInstanceID=2aab33dd-7245-4307-b67a-9c2eee92faaa" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true " target="_blanks">GO-TO-CHATBOT</a>
+                </div>
+                <small class="text-muted">watson</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            
+            <img src="https://i.pinimg.com/originals/24/ff/55/24ff553a23d3ab9d7014a49aad32e112.gif" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a voice assistant . Helps you with recommending courses.This chatbot has backend of IBMwatson that intelligently gives you replies.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                <a href="/VoiceAssistant" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true " target="_blanks">GO-TO-ASSISTANT</a>
+                  
+            </div>
+
+          <small class="text-muted">ASSISTANT</small>
+        </div>
+        </div>
+        </div>
+        </div>
+        <!---#REPLACE SVG EITH IMG-->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://tconspectus.pythonanywhere.com/static/images/image.png" class="d-block w-100" alt="...">
+
+            <div class="card-body">
+              <p class="card-text">SUMMARIZER lets you have a gist of your content , by showing only important points to you.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="/Summarizer" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">GO-TO-Summarizer</a>
+                
+                </div>
+                <small class="text-muted">SUMMARIZER</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://i.pinimg.com/originals/5a/96/39/5a96394244b9bf2a90845cecd36c4f28.gif" class="d-block w-100" alt="...">
+
+            <div class="card-body">
+              <p class="card-text">Speak into your microphone and let recognition predict it.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="/SpeechRecognition" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">GO-TO-SpeechRecognition</a>
+                
+                </div>
+                <small class="text-muted">SpeechRecognition</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+       
+        
+        
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+
+    
+  </body>
+</html>
+
