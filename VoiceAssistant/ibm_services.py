@@ -48,9 +48,9 @@ def get_audio(path):
     return r.recognize_google(audio)
 
 
-assistant_api='-SEKswVD3hButgeTPHAnzjVVALeMFs_uLz4xkTX3FRYF'
-assistant_url='https://api.jp-tok.assistant.watson.cloud.ibm.com/instances/2aab33dd-7245-4307-b67a-9c2eee92faaa'
-ASSISTANT_ID='ed4bacc3-4e94-4bd2-8040-9ed10b64dd5d'
+assistant_api=''
+assistant_url=''
+ASSISTANT_ID=''
 
 
 #response=assistant.get_workspace(workspace_id=ASSISTANT_ID).get_result()
